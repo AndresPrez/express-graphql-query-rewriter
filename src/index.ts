@@ -1,6 +1,6 @@
 import { RequestHandler, Response } from 'express';
 import * as graphqlHTTP from 'express-graphql';
-import { RewriteHandler, Rewriter } from 'graphql-query-rewriter';
+import { RewriteHandler, Rewriter } from 'graphql-query-rewriter-rc';
 
 interface RewriterMiddlewareOpts {
   rewriters: Rewriter[];
